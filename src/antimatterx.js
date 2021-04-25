@@ -211,7 +211,7 @@
                     title = (typeof title === 'string' && title.length > 0 ? title : 'download') + '.txt';
                     str = typeof str === 'string' ? str : '';
                     if (!(lib._nodeModule.fs instanceof Error)) {
-                        fs.writeFileSync(title, str);
+                        lib._nodeModule.fs.writeFileSync(title, str);
                         return null;
                     }
                     else return this.fromBlob(title, new Blob([
@@ -230,7 +230,7 @@
                     if (!m) return;
                     title = typeof title === 'string' && title.length > 0 ? title : 'download.' + m[2];
                     if (!(lib._nodeModule.fs instanceof Error)) {
-                        fs.writeFileSync(title, m[3], 'base64');
+                        lib._nodeModule.fs.writeFileSync(title, m[3], 'base64');
                         return null;
                     }
                     else {
