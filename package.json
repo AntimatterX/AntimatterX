@@ -1,0 +1,29 @@
+{
+  "name": "antimatterx",
+  "version": "1.0.0",
+  "description": "A JavaScript utility library.",
+  "main": "./src/antimatterx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntimatterX/amx.git"
+  },
+  "keywords": [
+    "modules",
+    "stdlib",
+    "util"
+  ],
+  "author": "AntimatterX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntimatterX/amx/issues"
+  },
+  "homepage": "https://github.com/AntimatterX/amx#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "canvas": "^2.7.0",
+    "clipboardy": "^2.3.0"
+  }
+}
