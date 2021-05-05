@@ -1,6 +1,6 @@
 {
   "name": "antimatterx",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A JavaScript utility library.",
   "main": "./src/antimatterx.js",
   "scripts": {
@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/AntimatterX/amx#readme",
   "dependencies": {
-    "axios": "^0.21.1",
     "canvas": "^2.7.0",
     "clipboardy": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1"
   }
 }
